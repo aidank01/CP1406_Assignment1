@@ -1,3 +1,6 @@
 /*mainstyles.css*/
 /*this is css comment style*/
-body {background-image: "BeachVolleyball\sand.jpg";,background-color: #e2edff;}
+#banner {height: 20%; color: red; text-align: center; background: yellow}
+#side {float:left; width: 20%; height: 100%; padding-left: 10%; color: darkslateblue; text-align: center; background: greenyellow}
+#main {float: left; width: 80%; height: 100%; background: lightgray; text-align: center}
+#lower{float: none; background: cornflowerblue; text-align: center}
