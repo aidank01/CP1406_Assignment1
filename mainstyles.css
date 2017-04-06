@@ -3,60 +3,88 @@
 body {
 	margin: 0;
 	padding: 0;
+	min-width: 75em;
+	font-family: 'Roboto', sans-serif;
 }
 
 #banner h1 {
 	color: antiquewhite;
-	font-size: 5em;
+	font-size: 4.8em;
+	margin: 0.33em 0;
 }
 
 #banner {
 	padding: 0.5em;
-	padding-bottom: 2em;
 	background-image: url('beach_background.jpg');
-	color: red; 
+	color: red;
 	text-align: center;
 	height: 135px; /* Pixel height to match image */
 }
 
 #side {
-
 	padding-top: 0.2em;
 	float:left;
 	width: 15%;
-	/*transition: background 300ms ease-in 200ms;*/
-	background-image: url('BeachVolleyball/sand.jpg');
-	background-repeat: no-repeat;
-	background-size: auto;
 	color: antiquewhite;
-/*	text-align: center;
-	font-size: 2em;*/
-	min-height: 100em
 }
 
 #side_text {
-	
-	/*padding: 2em;*/
-
 	color: antiquewhite;
 	text-align: left;
-	font-size: 2em
+	font-size: 1.5em;
+	-webkit-text-emphasis-color: red;
+}
 
+#side_text ul {
+	margin: 0;
+	padding: 0.5em;
+	list-style: none;
+}
+#side_text a {
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	text-decoration: none;
+}
+#side_text a:hover {
+	color: #0066BB;
+	text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+}
+
+#body {
+	
 }
 
 #main {
-	padding: 1em;
 	float: left;
-	width: 75%;
+	width: 85%;
 	min-height: 25em;
 	background: lightgray;
 	text-align: center;
 	font-size: 2em
 }
 
-#form {
+#content {
+	padding: 1em;
+}
+
+form {
 	text-align: left;
 	padding: 1em;
+}
+form label {
+	width: 10em;
+	float: left;
+}
+.form-row {
+	clear: left;
 }
 
 #lower{
