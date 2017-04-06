@@ -5,6 +5,9 @@ body {
 	padding: 0;
 	min-width: 75em;
 	font-family: 'Roboto', sans-serif;
+	background-image: url("BeachVolleyball/beachNet.jpg");
+	background-size: auto;
+	background-position: 100%;
 }
 
 #banner h1 {
@@ -15,17 +18,30 @@ body {
 
 #banner {
 	padding: 0.5em;
-	background-image: url('beach_background.jpg');
+	background-image: url("beach_background.jpg");
 	color: red;
 	text-align: center;
 	height: 135px; /* Pixel height to match image */
 }
+
+#homelink {
+	display: block;
+	left: auto;
+	top: auto;
+	height: 135px;
+	width: 100%;
+	position: absolute;
+
+}
+
 
 #side {
 	padding-top: 0.2em;
 	float:left;
 	width: 15%;
 	color: antiquewhite;
+
+
 }
 
 #side_text {
@@ -33,12 +49,15 @@ body {
 	text-align: left;
 	font-size: 1.5em;
 	-webkit-text-emphasis-color: red;
+
+
 }
 
 #side_text ul {
 	margin: 0;
 	padding: 0.5em;
 	list-style: none;
+
 }
 #side_text a {
 	color: white;
@@ -48,6 +67,7 @@ body {
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 	text-decoration: none;
+
 }
 #side_text a:hover {
 	color: #0066BB;
@@ -55,7 +75,8 @@ body {
     -1px -1px 0 white,
     1px -1px 0 white,
     -1px 1px 0 white,
-    1px 1px 0 white;  
+    1px 1px 0 white;
+
 }
 
 #body {
@@ -68,7 +89,9 @@ body {
 	min-height: 25em;
 	background: lightgray;
 	text-align: center;
-	font-size: 2em
+	font-size: 2em;
+	background-image: url("sandlight.jpg");
+	background-size: cover;
 }
 
 #content {
