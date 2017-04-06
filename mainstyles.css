@@ -1,6 +1,66 @@
 /*mainstyles.css*/
-/*this is css comment style*/
-#banner {height: 20%; color: red; text-align: center; background: yellow}
-#side {float:left; width: 20%; height: 100%; padding-left: 10%; color: darkslateblue; text-align: center; background: greenyellow}
-#main {float: left; width: 80%; height: 100%; background: lightgray; text-align: center}
-#lower{float: none; background: cornflowerblue; text-align: center}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#banner h1 {
+	color: antiquewhite;
+	font-size: 5em;
+}
+
+#banner {
+	padding: 0.5em;
+	padding-bottom: 2em;
+	background-image: url('beach_background.jpg');
+	color: red; 
+	text-align: center;
+	height: 135px; /* Pixel height to match image */
+}
+
+#side {
+
+	padding-top: 0.2em;
+	float:left;
+	width: 15%;
+	/*transition: background 300ms ease-in 200ms;*/
+	background-image: url('BeachVolleyball/sand.jpg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	color: antiquewhite;
+/*	text-align: center;
+	font-size: 2em;*/
+	min-height: 100em
+}
+
+#side_text {
+	
+	/*padding: 2em;*/
+
+	color: antiquewhite;
+	text-align: left;
+	font-size: 2em
+
+}
+
+#main {
+	padding: 1em;
+	float: left;
+	width: 75%;
+	min-height: 25em;
+	background: lightgray;
+	text-align: center;
+	font-size: 2em
+}
+
+#form {
+	text-align: left;
+	padding: 1em;
+}
+
+#lower{
+	clear: left;
+	background: cornflowerblue;
+	text-align: center
+}
