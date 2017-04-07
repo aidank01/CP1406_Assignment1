@@ -18,7 +18,7 @@ body {
 
 #banner {
 	padding: 0.5em;
-	background-image: url("beach_background.jpg");
+	background-image: url("BeachVolleyball/beach_background.jpg");
 	color: red;
 	text-align: center;
 	height: 135px; /* Pixel height to match image */
@@ -90,7 +90,7 @@ body {
 	background: lightgray;
 	text-align: center;
 	font-size: 2em;
-	background-image: url("sandlight.jpg");
+	background-image: url("BeachVolleyball/sandlight.jpg");
 	background-size: cover;
 }
 
@@ -114,4 +114,17 @@ form label {
 	clear: left;
 	background: cornflowerblue;
 	text-align: center
+}
+
+iframe{
+	display: table-cell;
+	background-color: antiquewhite;
+	font-size: 2em;
+	border: #3f8eff
+}
+
+img {
+	float: right;
+	border: 1px dotted black;
+	margin: 15px 15px 15px 15px;
 }
